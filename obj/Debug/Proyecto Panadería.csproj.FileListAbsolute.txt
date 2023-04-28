@@ -1,0 +1,12 @@
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\obj\Debug\Proyecto Panadería.csproj.AssemblyReference.cache
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\obj\Debug\Proyecto Panadería.csproj.SuggestedBindingRedirects.cache
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\obj\Debug\Proyecto_Panadería.Properties.Resources.resources
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\obj\Debug\Proyecto_Panadería.RegistroCliente.resources
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\obj\Debug\Proyecto Panadería.csproj.GenerateResource.cache
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\obj\Debug\Proyecto Panadería.csproj.CoreCompileInputs.cache
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\bin\Debug\Proyecto Panadería.exe.config
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\bin\Debug\Proyecto Panadería.exe
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\bin\Debug\Proyecto Panadería.pdb
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\obj\Debug\Proyecto Panadería.exe
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\obj\Debug\Proyecto Panadería.pdb
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Proyecto Panadería\obj\Debug\Proyecto_Panadería.Form1.resources

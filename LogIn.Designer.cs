@@ -82,20 +82,20 @@
             this.boton.Text = "Log In";
             this.boton.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // labelClave
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(453, 295);
-            this.label1.Name = "label1";
+            this.label1.Name = "labelClave";
             this.label1.Size = new System.Drawing.Size(104, 33);
             this.label1.TabIndex = 6;
             this.label1.Text = "Contraseña";
             // 
-            // textBox1
+            // usuarioBox
             // 
             this.textBox1.Location = new System.Drawing.Point(563, 211);
-            this.textBox1.Name = "textBox1";
+            this.textBox1.Name = "usuarioBox";
             this.textBox1.Size = new System.Drawing.Size(234, 22);
             this.textBox1.TabIndex = 7;
             // 

@@ -12,13 +12,14 @@ namespace Proyecto_Panadería {
 	public partial class Form1 : Form {
 		//views declaration
 		Login login;
+		Home home;
 
 		public Form1() {
 			InitializeComponent();
 			this.login = new Login();
 			this.login.MdiParent = this;
 			this.login.TransfEvento = this.TransfDelegadoHome;
-			this.login.Show()
+			this.login.Show();
 		}
 
 		private void button1_Click(object sender, EventArgs e) {

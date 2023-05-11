@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace Proyecto_Panadería {
 	public partial class Form1 : Form {
-		//views declaration
+		//System Declaration
+		PanaderiaSystem panaderiaSystem;
+
+		//Views Declaration
 		Login login;
 		Home home;
 
 		public Form1() {
 			InitializeComponent();
+			this.panaderiaSystem = new PanaderiaSystem();
 			this.login = new Login();
 			this.login.MdiParent = this;
 			this.login.TransfEvento = this.TransfDelegadoHome;

@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data; 
+using System.Data.SqlClient;
+using System.Xml;
+using System.Linq.Expressions;
+
+using Proyecto_Panadería.Properties;
 
 namespace Proyecto_Panadería {
 	internal class AccessDB {

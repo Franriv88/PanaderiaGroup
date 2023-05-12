@@ -24,6 +24,7 @@ namespace Proyecto_Panadería {
 
 		public bool addProduct() {
 			//TODO: Define whats the thing that we need in the product class
+			return true;
 		}
 
 	}

@@ -12,6 +12,8 @@ namespace Proyecto_Panadería
 {
     public partial class Login : Form
     {
+	public TransfDelegado TransfEvento;
+
         public Login()
         {
             InitializeComponent();

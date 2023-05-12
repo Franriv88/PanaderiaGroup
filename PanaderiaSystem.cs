@@ -1,7 +1,11 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Proyecto_Panadería {
-	public class PanaderiaSystem {
+	internal class PanaderiaSystem {
 		public List<User> users;
 		public List<Product> products;
 		public AccessDB db;

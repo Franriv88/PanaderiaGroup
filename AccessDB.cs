@@ -1,7 +1,11 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Proyecto_Panadería {
-	public class AccessDB {
+	internal class AccessDB {
 		private string connectionString;
 
 		public AccessDB() {

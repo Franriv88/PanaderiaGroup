@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Proyecto_Panadería
 {
-    public partial class Login : Form
+    public partial class Home : Form
     {
-        public Login()
+        public Home()
         {
             InitializeComponent();
-        }
-
-        private void loginButton_Click(object sender, EventArgs e)
-        {
-            
-
         }
     }
 }

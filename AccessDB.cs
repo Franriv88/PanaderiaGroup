@@ -27,12 +27,12 @@ namespace Proyecto_Panadería {
 
 				try {
 					connection.Open();
-					SqlDataReader reader = command.ExecuteREader();
+					SqlDataReader reader = command.ExecuteReader();
 					User userAssistant;
 
 					while (reader.Read()) {
 						//TODO: define user
-						userAssistant = new User(reader.GetInt32(0));
+						userAssistant = new User(reader.GetInt32(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetString(4), reader.GetBoolean(5), reader.GetBoolean(6));
 						users.Add(userAssistant);
 					}
 				} catch (Exception ex) {
@@ -52,12 +52,12 @@ namespace Proyecto_Panadería {
 
 				try {
 					connection.Open();
-					SqlDataReader reader = command.ExecuteREader();
+					SqlDataReader reader = command.ExecuteReader();
 					Product productAssistant;
 
 					while (reader.Read()) {
 						//TODO: define product
-						productAssistant = new Product(reader.GetInt32(0));
+						productAssistant = new Product(reader.GetInt32(0), reader.GetString(1), reader.GetInt32(2), reader.GetDouble(3), reader.GetBoolean(4));
 						products.Add(productAssistant);
 					}
 				} catch (Exception ex) {

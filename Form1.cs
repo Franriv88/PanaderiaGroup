@@ -22,7 +22,7 @@ namespace Proyecto_Panadería {
 			this.panaderiaSystem = new PanaderiaSystem();
 			this.login = new Login();
 			this.login.MdiParent = this;
-			this.login.TransfEvento = this.TransfDelegadoHome;
+			//this.login.TransfEvento = this.TransfDelegadoHome;
 			this.login.Show();
 		}
 

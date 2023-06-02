@@ -30,6 +30,7 @@ namespace Proyecto_Panadería {
 			this.name = name;
 			this.lastName = lastName;
 			this.userName = userName;
+			this.password = password;
 			this.isAdmin = isAdmin;
 			this.isDeleted = isDeleted;
 		}

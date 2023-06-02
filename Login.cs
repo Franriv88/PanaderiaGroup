@@ -12,17 +12,12 @@ namespace Proyecto_Panadería
 {
     public partial class Login : Form
     {
-	//public TransfDelegado TransfEvento;
+        public TransfDelegado TransfEvento;
 
+        public delegate void TransfDelegado();
         public Login()
         {
             InitializeComponent();
-        }
-
-        private void loginButton_Click(object sender, EventArgs e)
-        {
-            
-
         }
     }
 }

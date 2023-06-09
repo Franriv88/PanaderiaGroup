@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Proyecto_Panadería {
-	internal class Product {
+	public class Product {
 		public int id { get; set; }
 		public string name { get; set; }
 		public int amount { get; set; }

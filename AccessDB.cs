@@ -9,7 +9,7 @@ using System.Xml;
 using System.Linq.Expressions;
 
 namespace Proyecto_Panadería {
-	internal class AccessDB {
+	public class AccessDB {
 		private string connectionString;
 
 		public AccessDB() {
@@ -29,7 +29,6 @@ namespace Proyecto_Panadería {
 					User userAssistant;
 
 					while (reader.Read()) {
-                        //TODO: define user
                         int userId = reader.GetInt32(6);
                         string userName = reader.GetString(0);
                         string userLastName = reader.GetString(1);
@@ -62,8 +61,12 @@ namespace Proyecto_Panadería {
 					Product productAssistant;
 
 					while (reader.Read()) {
-						//TODO: define product
-						productAssistant = new Product(reader.GetInt32(0), reader.GetString(1), reader.GetInt32(2), reader.GetDouble(3), reader.GetBoolean(4));
+						int productId = reader.GetInt32(4);
+                        string productName = reader.GetString(0);
+                        int productAmount = reader.GetInt32(1);
+                        double productPrice = reader.GetDouble(2);
+                        bool productIsDeleted = reader.GetBoolean(3);
+                        productAssistant = new Product(productId, productName, productAmount, productPrice, productIsDeleted);
 						products.Add(productAssistant);
 					}
 				} catch (Exception ex) {

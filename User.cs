@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Proyecto_Panadería {
-	internal class User {
+	public class User {
 		public int id { get; set; }
 		public string name { get; set; }
 		public string lastName { get; set; }

@@ -16,18 +16,31 @@ namespace Proyecto_Panadería {
 
 		//Views Declaration
 		Login login;
+		AdminView adminView;
 
 		public Home() {
 			InitializeComponent();
 			this.panaderiaSystem = new PanaderiaSystem();
-            this.login = new Login();
+            this.login = new Login(this.panaderiaSystem);
             this.login.MdiParent = this;
-            this.login.TransfEvento = this.TransfDelegadoHome;
+            this.login.TransfEvento = this.TransfDelegadoLoginSuccess;
             this.login.Show();
         }
 
-		public void TransfDelegadoHome() {
-			//this.login.Close();
+		public void TransfDelegadoLoginSuccess() {
+			this.login.Close();
+			bool isAdmin = this.panaderiaSystem.currentUser.isAdmin;
+			if (isAdmin) {
+				this.loadAdminView();
+				return;
+			}
+			//this.loadSellerView();
 		}
+
+		public void loadAdminView() {
+			this.adminView = new AdminView(this.panaderiaSystem);
+			this.adminView.MdiParent = this;
+            this.adminView.Show();
+        }
 	}
 }

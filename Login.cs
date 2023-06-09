@@ -39,5 +39,10 @@ namespace Proyecto_Panadería
             MessageBox.Show("Login Success");
             this.TransfEvento();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

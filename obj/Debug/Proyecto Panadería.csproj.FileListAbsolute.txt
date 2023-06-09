@@ -22,3 +22,15 @@ C:\Users\juan-\Source\Repos\Franriv88\PanaderiaGroup\bin\Debug\Proyecto Panader�
 C:\Users\juan-\Source\Repos\Franriv88\PanaderiaGroup\bin\Debug\Proyecto Panadería.pdb
 C:\Users\juan-\Source\Repos\Franriv88\PanaderiaGroup\obj\Debug\Proyecto_Panadería.Home.resources
 C:\Users\juan-\Source\Repos\Franriv88\PanaderiaGroup\obj\Debug\Proyecto_Panadería.Login.resources
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Proyecto Panadería.exe.config
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Proyecto Panadería.exe
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Proyecto Panadería.pdb
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.csproj.AssemblyReference.cache
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.csproj.SuggestedBindingRedirects.cache
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto_Panadería.Home.resources
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto_Panadería.Login.resources
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto_Panadería.Properties.Resources.resources
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.csproj.GenerateResource.cache
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.csproj.CoreCompileInputs.cache
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.exe
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.pdb

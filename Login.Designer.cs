@@ -55,7 +55,7 @@ namespace Proyecto_Panadería
             // 
             this.userNameInputText.AccessibleDescription = "";
             this.userNameInputText.AccessibleName = "userName";
-            this.userNameInputText.Location = new System.Drawing.Point(354, 188);
+            this.userNameInputText.Location = new System.Drawing.Point(354, 200);
             this.userNameInputText.Name = "userNameInputText";
             this.userNameInputText.Size = new System.Drawing.Size(100, 20);
             this.userNameInputText.TabIndex = 1;
@@ -74,6 +74,7 @@ namespace Proyecto_Panadería
             // GIF
             // 
             this.GIF.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("GIF.BackgroundImage")));
+            this.GIF.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.GIF.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GIF.Image = ((System.Drawing.Image)(resources.GetObject("GIF.Image")));
             this.GIF.Location = new System.Drawing.Point(0, 0);
@@ -85,26 +86,30 @@ namespace Proyecto_Panadería
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(194, 171);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(354, 90);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(108, 157);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 93);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.PswInputText);
             this.Controls.Add(this.userNameInputText);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.GIF);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.GIF)).EndInit();

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,16 @@ namespace Proyecto_Panadería
         {
             InitializeComponent();
             this.panaderiaSystem = panaderiaSystem;
+
+            /*
+            //Estabelcemos el estilo del control PictureBox para lograr la transparencia
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Paint += new PaintEventHandler(pictureBox1_Paint);
+
+            //Hacemo que el formulario tenga fondo translúcido
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+            BackColor = Color.Transparent;
+            */
         }
 
         private void loginButton_Click(object sender, EventArgs e)
@@ -40,9 +51,17 @@ namespace Proyecto_Panadería
             this.TransfEvento();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        /*
+        private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
+            //Establecemos la opacidad del PictureBox
+            float opacity = 0.5f; 
 
+            Color transparentColor = Color.FromArgb((int)(opacity*255), BackColor);
+            Brush brush = new SolidBrush(transparentColor);
+
+            e.Graphics.FillRectangle(brush, e.ClipRectangle);
         }
+        */
     }
 }

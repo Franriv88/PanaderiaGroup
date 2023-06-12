@@ -52,6 +52,22 @@ namespace Proyecto_Panadería
         }
 
         /*
+        private void ConfigurePswInputText()
+        {
+            //creamos un RichTextoBox
+            RichTextBox richTextBox = new RichTextBox();
+
+            //establecemos el colo de fondo transparente
+            richTextBox.BackColor = Color.Transparent;
+
+            //ajustamos otras porpiedades
+            richTextBox.BorderStyle = BorderStyle.None;
+
+            //agregamos el RichTextBox al formulario
+            this.Controls.Add(richTextBox);
+        }
+        */
+        /*
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
             //Establecemos la opacidad del PictureBox

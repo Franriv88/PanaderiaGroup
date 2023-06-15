@@ -56,6 +56,12 @@
     <Compile Include="AdminView.Designer.cs">
       <DependentUpon>AdminView.cs</DependentUpon>
     </Compile>
+    <Compile Include="BillingView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingView.Designer.cs">
+      <DependentUpon>BillingView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     <EmbeddedResource Include="AdminView.resx">
       <DependentUpon>AdminView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BillingView.resx">
+      <DependentUpon>BillingView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +103,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SellerView.resx">
+      <DependentUpon>SellerView.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="panaderiaDataSet.xsc">
       <DependentUpon>panaderiaDataSet.xsd</DependentUpon>
     </None>
@@ -115,6 +127,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PanaderiaSystem.cs" />
+    <Compile Include="SellerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellerView.Designer.cs">
+      <DependentUpon>SellerView.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="AccessDB.cs" />

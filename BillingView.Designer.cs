@@ -43,6 +43,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureClientBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMailBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -55,7 +56,7 @@
             // 
             this.pictureClientBox.BackColor = System.Drawing.Color.Black;
             this.pictureClientBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureClientBox.Image")));
-            this.pictureClientBox.Location = new System.Drawing.Point(92, 86);
+            this.pictureClientBox.Location = new System.Drawing.Point(94, 115);
             this.pictureClientBox.Name = "pictureClientBox";
             this.pictureClientBox.Size = new System.Drawing.Size(32, 33);
             this.pictureClientBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -66,7 +67,7 @@
             // 
             this.pictureMailBox.BackColor = System.Drawing.Color.Black;
             this.pictureMailBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureMailBox.Image")));
-            this.pictureMailBox.Location = new System.Drawing.Point(92, 158);
+            this.pictureMailBox.Location = new System.Drawing.Point(94, 187);
             this.pictureMailBox.Name = "pictureMailBox";
             this.pictureMailBox.Size = new System.Drawing.Size(25, 25);
             this.pictureMailBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -77,7 +78,7 @@
             // 
             this.clientNameInputText.BackColor = System.Drawing.Color.Black;
             this.clientNameInputText.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.clientNameInputText.Location = new System.Drawing.Point(165, 102);
+            this.clientNameInputText.Location = new System.Drawing.Point(167, 131);
             this.clientNameInputText.Name = "clientNameInputText";
             this.clientNameInputText.Size = new System.Drawing.Size(120, 13);
             this.clientNameInputText.TabIndex = 2;
@@ -88,7 +89,7 @@
             this.clientEmailAddressText.BackColor = System.Drawing.Color.Black;
             this.clientEmailAddressText.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.clientEmailAddressText.ForeColor = System.Drawing.Color.Silver;
-            this.clientEmailAddressText.Location = new System.Drawing.Point(135, 163);
+            this.clientEmailAddressText.Location = new System.Drawing.Point(137, 192);
             this.clientEmailAddressText.Name = "clientEmailAddressText";
             this.clientEmailAddressText.Size = new System.Drawing.Size(210, 13);
             this.clientEmailAddressText.TabIndex = 4;
@@ -102,7 +103,7 @@
             this.sendButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sendButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sendButton.ForeColor = System.Drawing.Color.White;
-            this.sendButton.Location = new System.Drawing.Point(190, 247);
+            this.sendButton.Location = new System.Drawing.Point(192, 276);
             this.sendButton.Name = "sendButton";
             this.sendButton.Size = new System.Drawing.Size(80, 25);
             this.sendButton.TabIndex = 5;
@@ -113,26 +114,33 @@
             // 
             // backButton
             // 
-            this.backButton.Location = new System.Drawing.Point(12, 12);
+            this.backButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("backButton.BackgroundImage")));
+            this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.backButton.FlatAppearance.BorderSize = 0;
+            this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backButton.Location = new System.Drawing.Point(0, 0);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(75, 23);
+            this.backButton.Size = new System.Drawing.Size(38, 35);
             this.backButton.TabIndex = 6;
-            this.backButton.Text = "Regresar";
             this.backButton.UseVisualStyleBackColor = true;
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(681, 356);
+            this.exitButton.BackColor = System.Drawing.Color.Transparent;
+            this.exitButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("exitButton.BackgroundImage")));
+            this.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.exitButton.FlatAppearance.BorderSize = 0;
+            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exitButton.Location = new System.Drawing.Point(734, 398);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.Size = new System.Drawing.Size(54, 40);
             this.exitButton.TabIndex = 7;
-            this.exitButton.Text = "Salir";
-            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Black;
-            this.pictureBox1.Location = new System.Drawing.Point(50, 65);
+            this.pictureBox1.Location = new System.Drawing.Point(52, 94);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(488, 227);
             this.pictureBox1.TabIndex = 8;
@@ -141,7 +149,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(471, 47);
+            this.pictureBox2.Location = new System.Drawing.Point(473, 76);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(285, 267);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -152,7 +160,7 @@
             // 
             this.pdfPictureBox.BackColor = System.Drawing.Color.Black;
             this.pdfPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pdfPictureBox.Image")));
-            this.pdfPictureBox.Location = new System.Drawing.Point(384, 208);
+            this.pdfPictureBox.Location = new System.Drawing.Point(386, 237);
             this.pdfPictureBox.Name = "pdfPictureBox";
             this.pdfPictureBox.Size = new System.Drawing.Size(64, 64);
             this.pdfPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -163,7 +171,7 @@
             // 
             this.okPictureBox.BackColor = System.Drawing.Color.Black;
             this.okPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("okPictureBox.Image")));
-            this.okPictureBox.Location = new System.Drawing.Point(490, 208);
+            this.okPictureBox.Location = new System.Drawing.Point(492, 237);
             this.okPictureBox.Name = "okPictureBox";
             this.okPictureBox.Size = new System.Drawing.Size(48, 52);
             this.okPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -175,7 +183,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(142)))), ((int)(((byte)(95)))));
-            this.label2.Location = new System.Drawing.Point(155, 106);
+            this.label2.Location = new System.Drawing.Point(157, 135);
             this.label2.MinimumSize = new System.Drawing.Size(30, 1);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 13);
@@ -187,7 +195,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(130, 104);
+            this.label1.Location = new System.Drawing.Point(132, 133);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 13;
@@ -198,12 +206,22 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(142)))), ((int)(((byte)(95)))));
-            this.label3.Location = new System.Drawing.Point(131, 167);
+            this.label3.Location = new System.Drawing.Point(133, 196);
             this.label3.MinimumSize = new System.Drawing.Size(30, 1);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(157, 13);
             this.label3.TabIndex = 14;
             this.label3.Text = "_________________________";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Mistral", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(203, 49);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(110, 44);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Billing";
             // 
             // BillingView
             // 
@@ -211,6 +229,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(142)))), ((int)(((byte)(95)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.clientNameInputText);
             this.Controls.Add(this.clientEmailAddressText);
             this.Controls.Add(this.label3);
@@ -255,5 +274,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

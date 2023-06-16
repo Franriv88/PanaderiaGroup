@@ -39,8 +39,10 @@
             this.listSellerView = new System.Windows.Forms.ListView();
             this.backButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
-            this.labelList = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSellerView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridSellerView
@@ -75,12 +77,16 @@
             // 
             // confirmCartButton
             // 
-            this.confirmCartButton.Location = new System.Drawing.Point(614, 293);
+            this.confirmCartButton.BackColor = System.Drawing.Color.Black;
+            this.confirmCartButton.FlatAppearance.BorderSize = 0;
+            this.confirmCartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.confirmCartButton.ForeColor = System.Drawing.Color.White;
+            this.confirmCartButton.Location = new System.Drawing.Point(587, 293);
             this.confirmCartButton.Name = "confirmCartButton";
             this.confirmCartButton.Size = new System.Drawing.Size(75, 23);
             this.confirmCartButton.TabIndex = 1;
             this.confirmCartButton.Text = "Confirmar";
-            this.confirmCartButton.UseVisualStyleBackColor = true;
+            this.confirmCartButton.UseVisualStyleBackColor = false;
             // 
             // textBoxSearch
             // 
@@ -110,37 +116,60 @@
             // 
             // backButton
             // 
-            this.backButton.Location = new System.Drawing.Point(13, 13);
+            this.backButton.BackColor = System.Drawing.Color.Transparent;
+            this.backButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("backButton.BackgroundImage")));
+            this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.backButton.FlatAppearance.BorderSize = 0;
+            this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backButton.Location = new System.Drawing.Point(0, 0);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(75, 23);
+            this.backButton.Size = new System.Drawing.Size(38, 35);
             this.backButton.TabIndex = 5;
-            this.backButton.Text = "Regresar";
-            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.UseVisualStyleBackColor = false;
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(682, 358);
+            this.exitButton.BackColor = System.Drawing.Color.Transparent;
+            this.exitButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("exitButton.BackgroundImage")));
+            this.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.exitButton.FlatAppearance.BorderSize = 0;
+            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exitButton.Location = new System.Drawing.Point(734, 398);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.Size = new System.Drawing.Size(54, 40);
             this.exitButton.TabIndex = 6;
             this.exitButton.Text = "Salir";
-            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.UseVisualStyleBackColor = false;
             // 
-            // labelList
+            // label4
             // 
-            this.labelList.AutoSize = true;
-            this.labelList.Location = new System.Drawing.Point(481, 37);
-            this.labelList.Name = "labelList";
-            this.labelList.Size = new System.Drawing.Size(29, 13);
-            this.labelList.TabIndex = 7;
-            this.labelList.Text = "Lista";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Mistral", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(596, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 44);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "List";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(85, 40);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
             // 
             // SellerView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(142)))), ((int)(((byte)(95)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.labelList);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.listSellerView);
@@ -152,6 +181,7 @@
             this.Name = "SellerView";
             this.Text = "SellerView";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSellerView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,6 +199,7 @@
         private System.Windows.Forms.ListView listSellerView;
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Button exitButton;
-        private System.Windows.Forms.Label labelList;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

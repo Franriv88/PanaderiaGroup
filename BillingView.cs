@@ -17,7 +17,8 @@ namespace Proyecto_Panadería
         {
             InitializeComponent();
         }
-
+        
+        //Transición de icónos PDF-Check
         private void sendButton_Click(object sender, EventArgs e)
         {
             Transition t = new Transition(new TransitionType_EaseInEaseOut(10));

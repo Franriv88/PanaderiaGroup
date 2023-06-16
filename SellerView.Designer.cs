@@ -28,7 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SellerView));
             this.dataGridSellerView = new System.Windows.Forms.DataGridView();
+            this.columnX = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Borrar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.confirmCartButton = new System.Windows.Forms.Button();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.labelSearch = new System.Windows.Forms.Label();
@@ -36,9 +40,6 @@
             this.backButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.labelList = new System.Windows.Forms.Label();
-            this.columnX = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Borrar = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSellerView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,6 +54,24 @@
             this.dataGridSellerView.Name = "dataGridSellerView";
             this.dataGridSellerView.Size = new System.Drawing.Size(273, 274);
             this.dataGridSellerView.TabIndex = 0;
+            // 
+            // columnX
+            // 
+            this.columnX.HeaderText = "Cantidad";
+            this.columnX.Name = "columnX";
+            // 
+            // Producto
+            // 
+            this.Producto.HeaderText = "Producto";
+            this.Producto.Name = "Producto";
+            // 
+            // Borrar
+            // 
+            this.Borrar.HeaderText = "X";
+            this.Borrar.Name = "Borrar";
+            this.Borrar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Borrar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Borrar.Width = 30;
             // 
             // confirmCartButton
             // 
@@ -116,24 +135,6 @@
             this.labelList.TabIndex = 7;
             this.labelList.Text = "Lista";
             // 
-            // columnX
-            // 
-            this.columnX.HeaderText = "Cantidad";
-            this.columnX.Name = "columnX";
-            // 
-            // Producto
-            // 
-            this.Producto.HeaderText = "Producto";
-            this.Producto.Name = "Producto";
-            // 
-            // Borrar
-            // 
-            this.Borrar.HeaderText = "X";
-            this.Borrar.Name = "Borrar";
-            this.Borrar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Borrar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Borrar.Width = 30;
-            // 
             // SellerView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -147,6 +148,7 @@
             this.Controls.Add(this.textBoxSearch);
             this.Controls.Add(this.confirmCartButton);
             this.Controls.Add(this.dataGridSellerView);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SellerView";
             this.Text = "SellerView";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSellerView)).EndInit();

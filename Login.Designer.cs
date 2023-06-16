@@ -96,6 +96,7 @@ namespace Proyecto_Panadería
             // 
             this.GIF.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("GIF.BackgroundImage")));
             this.GIF.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.GIF.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GIF.Image = ((System.Drawing.Image)(resources.GetObject("GIF.Image")));
             this.GIF.Location = new System.Drawing.Point(0, 0);
             this.GIF.Name = "GIF";

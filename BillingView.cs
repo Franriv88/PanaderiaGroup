@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Transitions;
 using System.Windows.Forms;
 
 namespace Proyecto_Panadería
@@ -15,6 +16,14 @@ namespace Proyecto_Panadería
         public BillingView()
         {
             InitializeComponent();
+        }
+
+        private void sendButton_Click(object sender, EventArgs e)
+        {
+            Transition t = new Transition(new TransitionType_EaseInEaseOut(10));
+            t.add(pdfPictureBox, "Left", -300);
+            t.add(okPictureBox, "Left", 389);
+            t.run();
         }
     }
 }

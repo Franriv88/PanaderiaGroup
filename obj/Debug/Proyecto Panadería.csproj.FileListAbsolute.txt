@@ -35,7 +35,15 @@ C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaG
 C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.exe
 C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.pdb
 C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto_Panadería.AdminView.resources
+<<<<<<< HEAD
 C:\Users\juan-\Source\Repos\Franriv88\PanaderiaGroup\obj\Debug\Proyecto_Panadería.AdminView.resources
 C:\Users\juan-\Source\Repos\Franriv88\PanaderiaGroup\obj\Debug\Proyecto_Panadería.RMFormView.resources
 C:\Users\juan-\Source\Repos\Franriv88\PanaderiaGroup\obj\Debug\Proyecto_Panadería.RMFormBulkUpdateView.resources
 C:\Users\juan-\Source\Repos\Franriv88\PanaderiaGroup\obj\Debug\Proyecto_Panadería.UserFormView.resources
+=======
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto_Panadería.BillingView.resources
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto_Panadería.SellerView.resources
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Transitions.dll
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Transitions.pdb
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.csproj.CopyComplete
+>>>>>>> a996e00db8e3cc24345576bd2fc98f2dfc89483a

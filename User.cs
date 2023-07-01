@@ -16,7 +16,17 @@ namespace Proyecto_Panadería {
 
 		public User() {}
 
-		public User(int id, string name, string lastName, string userName, string password) {
+        public User(string name, string lastName, string userName, string password, bool isAdmin)
+        {
+            this.name = name;
+            this.lastName = lastName;
+            this.userName = userName;
+			this.password = password;
+            this.isAdmin = isAdmin;
+            this.isDeleted = false;
+        }
+
+        public User(int id, string name, string lastName, string userName) {
 			this.id = id;
 			this.name = name;
 			this.lastName = lastName;
@@ -34,5 +44,16 @@ namespace Proyecto_Panadería {
 			this.isAdmin = isAdmin;
 			this.isDeleted = isDeleted;
 		}
-	}
+
+        public string[] toArray()
+        {
+            return new string[] {
+                this.id.ToString(),
+                this.name.ToUpper(),
+                this.lastName.ToUpper(),
+                this.userName.ToUpper(),
+                this.isAdmin? "True" : "False"
+            };
+        }
+    }
 }

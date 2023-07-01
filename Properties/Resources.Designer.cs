@@ -70,6 +70,15 @@ namespace Proyecto_Panadería.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\Mulitmedia\Productos\Donas.jpg.
+        /// </summary>
+        internal static string Image1 {
+            get {
+                return ResourceManager.GetString("Image1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap panadero__2_ {

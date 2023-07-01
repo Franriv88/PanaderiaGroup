@@ -1,5 +1,42 @@
-# Visual Studio 2015 cache/options directory
-.vs/
+# Carpeta bin y obj generadas por Visual Studio
+bin/
+obj/
 
-# Build results
-[Oo]bj/
+# Carpeta de dependencias NuGet
+packages/
+
+# Archivos de respaldo y caché generados por el IDE
+*.bak
+*.cache
+
+# Archivos de solución y proyecto generados por Visual Studio
+*.suo
+*.user
+*.sln.docstates
+
+# Archivos de configuración de usuario
+*.userprefs
+
+# Archivos de registro y errores
+*.log
+*.errors
+
+# Archivos de compilación y salida
+*.exe
+*.dll
+*.pdb
+*.dll.config
+*.exe.config
+*.rpt
+
+# Archivos de publicación
+_publish/
+
+# Archivos de prueba
+TestResults/
+
+# Archivos de análisis de código estático generados por herramientas como ReSharper
+*.ReSharper*
+
+# Carpeta de análisis de código estático de Visual Studio
+.vs/

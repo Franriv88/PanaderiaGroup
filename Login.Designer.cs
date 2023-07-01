@@ -55,9 +55,10 @@ namespace Proyecto_Panadería
             this.loginButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.loginButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.loginButton.FlatAppearance.BorderSize = 0;
+            this.loginButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginButton.ForeColor = System.Drawing.Color.White;
+            this.loginButton.ForeColor = System.Drawing.Color.Black;
             this.loginButton.Location = new System.Drawing.Point(354, 321);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(100, 23);
@@ -96,6 +97,7 @@ namespace Proyecto_Panadería
             // 
             this.GIF.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("GIF.BackgroundImage")));
             this.GIF.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.GIF.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GIF.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GIF.Image = ((System.Drawing.Image)(resources.GetObject("GIF.Image")));
             this.GIF.Location = new System.Drawing.Point(0, 0);

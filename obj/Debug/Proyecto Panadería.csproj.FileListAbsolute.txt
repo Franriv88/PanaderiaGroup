@@ -43,7 +43,65 @@ C:\Users\juan-\Source\Repos\Franriv88\PanaderiaGroup\obj\Debug\Proyecto_Panader�
 =======
 C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto_Panadería.BillingView.resources
 C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto_Panadería.SellerView.resources
-C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Transitions.dll
-C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Transitions.pdb
 C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.csproj.CopyComplete
+<<<<<<< HEAD
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.barcodes.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.commons.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.forms.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.io.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.kernel.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.layout.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.pdfa.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.sign.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.styledxmlparser.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.svg.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Win32.Registry.AccessControl.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Microsoft.Win32.SystemEvents.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\RestSharp.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Buffers.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.CodeDom.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Data.Odbc.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Data.OleDb.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Data.SqlClient.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Diagnostics.EventLog.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Drawing.Common.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.IO.Packaging.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.IO.Ports.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Memory.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Security.AccessControl.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Security.Permissions.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.ServiceModel.Syndication.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Threading.AccessControl.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\System.ValueTuple.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\obj\Debug\Proyecto Panadería.csproj.Fody.CopyLocal.cache
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\SRV\Desktop\DaVinci\Cuatrimestre 6\Plataformas de Desarrollo\PanaderiaGroup\bin\Debug\itext.bouncy-castle-adapter.xml
+=======
 >>>>>>> a996e00db8e3cc24345576bd2fc98f2dfc89483a
+>>>>>>> 9cfd0a905de2ec18e747b7463fd8a6aa96b871cb

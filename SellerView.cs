@@ -14,8 +14,10 @@ namespace Proyecto_Panadería
 {
     public partial class SellerView : Form
     {
-        public SellerView()
+        public PanaderiaSystem panaderiaSystem;
+        public SellerView(PanaderiaSystem panaderiaSystem)
         {
+            this.panaderiaSystem = panaderiaSystem;
             InitializeComponent();
             rellenar();
         }

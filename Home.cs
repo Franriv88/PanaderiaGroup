@@ -17,6 +17,7 @@ namespace Proyecto_Panadería {
 		//Views Declaration
 		Login login;
 		AdminView adminView;
+        SellerView sellerView;
 		ProductFormView productFormView;
 		RMFormView rmFormView;
         UserFormView userFormView;
@@ -38,10 +39,16 @@ namespace Proyecto_Panadería {
 				this.loadAdminView();
 				return;
 			}
-			//this.loadSellerView();
-		}
+			this.loadSellerView();
+        }
+        public void loadSellerView()
+        {
+            this.sellerView = new SellerView(this.panaderiaSystem);
+            this.sellerView.MdiParent = this;
+            this.sellerView.Show();
+        }
 
-		public void loadAdminView() {
+        public void loadAdminView() {
 			this.adminView = new AdminView(this.panaderiaSystem);
 			this.adminView.MdiParent = this;
             this.adminView.AddProductTransfDelegate += this.loadProductFormView;

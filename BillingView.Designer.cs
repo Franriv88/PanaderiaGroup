@@ -78,11 +78,13 @@
             // 
             this.clientNameInputText.BackColor = System.Drawing.Color.Black;
             this.clientNameInputText.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.clientNameInputText.ForeColor = System.Drawing.Color.Silver;
             this.clientNameInputText.Location = new System.Drawing.Point(167, 131);
             this.clientNameInputText.Name = "clientNameInputText";
             this.clientNameInputText.Size = new System.Drawing.Size(120, 13);
             this.clientNameInputText.TabIndex = 2;
             this.clientNameInputText.Text = "Nombre";
+            this.clientNameInputText.TextChanged += new System.EventHandler(this.clientNameInputText_TextChanged);
             // 
             // clientEmailAddressText
             // 
@@ -102,15 +104,15 @@
             this.sendButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.sendButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sendButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sendButton.ForeColor = System.Drawing.Color.White;
-            this.sendButton.Location = new System.Drawing.Point(192, 276);
+            this.sendButton.ForeColor = System.Drawing.Color.Black;
+            this.sendButton.Location = new System.Drawing.Point(222, 276);
             this.sendButton.Name = "sendButton";
             this.sendButton.Size = new System.Drawing.Size(80, 25);
             this.sendButton.TabIndex = 5;
             this.sendButton.TabStop = false;
             this.sendButton.Text = "Confirmar";
             this.sendButton.UseVisualStyleBackColor = false;
-            this.sendButton.Click += new System.EventHandler(this.sendButton_Click);
+            this.sendButton.Click += new System.EventHandler(this.billingConfirmButton);
             // 
             // backButton
             // 

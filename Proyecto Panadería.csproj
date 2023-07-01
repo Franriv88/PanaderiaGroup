@@ -308,6 +308,12 @@
     <Compile Include="BillingView.Designer.cs">
       <DependentUpon>BillingView.cs</DependentUpon>
     </Compile>
+    <Compile Include="RMFormBulkUpdateView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RMFormBulkUpdateView.Designer.cs">
+      <DependentUpon>RMFormBulkUpdateView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -325,8 +331,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>panaderiaDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ProductFormView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductFormView.Designer.cs">
+      <DependentUpon>ProductFormView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserFormView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserFormView.Designer.cs">
+      <DependentUpon>UserFormView.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminView.resx">
       <DependentUpon>AdminView.cs</DependentUpon>
     </EmbeddedResource>
@@ -353,6 +371,15 @@
       <DependentUpon>SellerView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <EmbeddedResource Include="RMFormBulkUpdateView.resx">
+      <DependentUpon>RMFormBulkUpdateView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RMFormView.resx">
+      <DependentUpon>RMFormView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserFormView.resx">
+      <DependentUpon>UserFormView.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="panaderiaDataSet.xsc">
       <DependentUpon>panaderiaDataSet.xsd</DependentUpon>
     </None>
@@ -374,6 +401,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PanaderiaSystem.cs" />
+    <Compile Include="RawMaterial.cs" />
+    <Compile Include="RMFormView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RMFormView.Designer.cs">
+      <DependentUpon>RMFormView.cs</DependentUpon>
+    </Compile>
     <Compile Include="SellerView.cs">
       <SubType>Form</SubType>
     </Compile>
